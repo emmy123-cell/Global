@@ -74,19 +74,19 @@ print(Special_type);
   print("\nType Pizza gotten");
   pizza_Type_List = 'Type';
   pizza_Type = "BBQ Chicken Pizza";
-   prize += 5000;
+   prize += 450;
   break;
   }else if(pizza_Type_List == "6"){
   print("\nType Pizza gotten");
   pizza_Type_List = 'Type';
   pizza_Type = "Hawaiian Pizza";
-  prize += 3500;
+  prize += 350;
   break;
   }else if(pizza_Type_List == "7"){
   print("\nType Pizza gotten");
   pizza_Type_List = 'Type';
   pizza_Type = "Buffalo Piizza";
-   prize += 5000;
+   prize += 550;
   break;
   }else {
   print("Invalid Pizza Type");
@@ -175,6 +175,7 @@ print(Address);
 stdout.write("\nEnter Your Number Please\n");
 int Number = int.parse(stdin.readLineSync()!);
 print(Number);
+print("HERE IS THE RECEIPT FOR YOUR PIZZA ORDER");
 print("From Domino Pizza Palace, the size selected is: $size");
 print("From Domino Pizza Palace, the type selected is: $pizza_Type");
 print("From Domino Pizza Palace, the topping selected is: $Toppings");
